@@ -1,6 +1,6 @@
-person: 
-  name: Kevin
-  age: 30
+person:
+  name: Kevin_id${random.uuid}
+  age: ${random.int}
   happy: true
   birth: 1992/05/06
   maps: {
