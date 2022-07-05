@@ -1,2 +1,18 @@
-server:
-  port: 8081
+person: 
+  name: Kevin
+  age: 30
+  happy: true
+  birth: 1992/05/06
+  maps: {
+      k1: v1, 
+      k2: v2
+    }
+  lists: 
+    - music
+    - game
+    - food
+  dog: {
+    name: DD,
+    age: 3
+  }
+    

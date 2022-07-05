@@ -1,10 +1,13 @@
 package com.pakage.pojo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Dog {
+	@Value("DD")
 	private String name;
+	@Value("14")
 	private Integer age;
 	
 	public Dog() {
